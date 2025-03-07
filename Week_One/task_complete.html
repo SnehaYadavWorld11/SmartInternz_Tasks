@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome to my webpage World of Artistry</title>
+    <style>
+        body{
+            background-color:whitesmoke;
+        }
+        #title{
+            text-align: center;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 100px;
+            padding: 2px;
+            margin: 2px;
+            border-radius: 20px;
+            color: 2px solid black;
+            color:brown;
+            border-radius: 2px;
+            
+        }
+        #title:hover{
+            color:rgb(237, 132, 94) ;
+            text-decoration: dashed;
+        }
+        nav {
+            background-color: rgb(252, 218, 207);
+            padding: 15px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            padding: 10px 20px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background-color: rgb(252, 227, 218);
+            border-radius: 5px;
+            color: red;
+        }
+        .para1{
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color:black;
+
+        }
+        .para2{
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: black;
+
+        }
+
+        .image{
+            text-align: center;
+            width: 50;
+            height: 50;
+            
+        }
+        img {
+            width: 700px;
+            height: 600px;
+            border-radius: 5px;
+            
+        }
+        .container{
+            display: grid;
+            grid-template-columns: auto auto auto ;
+            border: 2px solid black;
+            
+
+        }
+        .container >div{
+            background-color:rgb(255, 255, 203);
+            padding: 20px;
+            border: 2px solid black;
+        }
+        .container :hover{
+            background-color:rgb(255, 255, 203);
+            padding: 20px;
+            border: 2px solid black;
+            color: orange;
+        }
+        .h3{
+            text-align: center;
+            color: brown;
+        }
+        .h31{
+            text-align: center;
+            color: black;
+        }
+        .forms{
+            text-align: center;
+            border-radius: 100px;
+            
+        }
+        #button{
+            background-color: red;
+            color: black;
+            border: 2px solid black;
+            margin: 2px;
+            padding: 2px;
+            width: 100px;
+            height: 30px;
+           border-radius: 5px;
+           font-size: larger;
+           font-style: normal;
+           font-family: 'Times New Roman', Times, serif;
+            
+        }
+        #button:hover{
+            background-color: rgba(251, 251, 251, 0.841);
+            cursor:grab;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title"><b>Welcome to the World of Artistry &#x1F30D</b></h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Services</a>
+        <a href="#">Contact Us</a>
+    </nav>
+    <p class="para1">Painting is an art form that surfaces images to canvas or other materials by applying paints, pigments, and other mediums. There are several different media used for painting like oils, acrylics, watercolor, etc.</p>
+    <p class="para2">Painting is a beautiful art of colors. It requires creative skills to paint images on canvas or any other surface. There are various stages of painting that include preparing the surface, under-painting or blocking in colors, laying the paint, and blending colors. Additional layers of paint are applied to the surface in order to build up complex colors.</p>
+    <div class="image"><img src="image_one.png" alt="image" >
+    <p><em>Art is the voice of the soul</em></p></div>
+    
+    <h3 class="h3">Available Online Painting Courses</h3>
+    <div class="container">
+        <div>Oil Painting</div>
+        <div>Acrylic Painting</div>
+        <div>Watercolor Painting</div>
+        <div>Gouache Painting</div>
+        <div>Pastel Painting</div>
+        <div>Encaustic Painting</div>
+        <div>Fresco Painting</div>
+        <div>Spray Painting</div>
+        <div>Ink Wash Painting</div>
+    </div><br>
+
+    <h3 class="h31">Fill Your Details</h3>
+    <form class="forms">
+        <input type="text" name="full name" placeholder="Full Name"><br><br>
+        <input type="text" name="gmail" placeholder="Gmail" ><br><br>
+        <input type="text" name="couse" placeholder="Course Name" ><br><br>
+        <button id="button" >submit</button><br>
+    </form>
+
+    
+</body>
+</html>
